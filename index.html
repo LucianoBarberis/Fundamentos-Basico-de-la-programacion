@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Fundamentos de programación</title>
+    <style>
+        body {
+            font-family: "Inter", serif;
+            height: 98.3vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom right, #FAFAFA, #fff);
+            background-size: cover;
+        }
+        @keyframes move {
+            0% {
+                transform: translateX(20px);
+            }
+            25% {
+                transform: translateY(20px);
+            }
+            50% {
+                transform: translateX(-20px);
+            }
+            75% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateX(20px);
+            }
+        }
+        h1 {
+            animation-duration: 15s;
+            animation-name: move;
+            animation-iteration-count: infinite;
+            color: #FAFAFA;
+            background-color: #212121;
+            box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.250);
+            padding: 20px;
+            border-radius: 30px;
+            font-size: 42px;
+            font-weight: 300;
+            cursor: pointer;
+        }
+        h1:hover {
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            text-decoration-thickness: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fundamentos de la programación</h1>
+    
+</body>
+</html>
